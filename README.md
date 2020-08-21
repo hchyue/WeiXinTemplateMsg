@@ -3,6 +3,8 @@
 
 使用方法：
 1.设置Config
+
+        //创建config，并设置
         Config config=Config.getInstance();
         config.setAppid("wxaa520c9978d0b71c");//设置appid
         config.setSecret("63820aef1817ce9f32dd60e9dc0966dc");//设置secret
@@ -18,6 +20,8 @@
                 "{{remark.DATA}}");
        
 2.创建TemplateMsgSender对象,调用send方法发送消息.消息的内容须要与模板内容一一对应
+        
+        
         TemplateMsgSender msgSender=new TemplateMsgSender(config);
         String alarm="{{业务监控}}\n" +
                 "告警时间：{{2020-08-10 12:00:01}}\n" +
