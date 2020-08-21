@@ -64,7 +64,7 @@ public class TemplateMsgSender
 			String regex1 = "\\{\\{(\\S+).DATA\\}\\}";
 			Vector<String> templateVec=parse(config.getTemplate(),regex1);
 
-			String regex2 = "\\{\\{(\\S*)\\}\\}";
+			String regex2 = "\\{\\{(.*)\\}\\}";
 			Vector<String> alarmVec=parse(al,regex2);
 
 			if(templateVec.size()==alarmVec.size())
