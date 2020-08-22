@@ -15,7 +15,9 @@
   </description>
 
 
-
+  <build>
+    <directory>${project.basedir}</directory>
+  </build>
     <!--bootstrap-end-comment-->
   <dependencies>
     <dependency>

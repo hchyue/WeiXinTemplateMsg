@@ -1,14 +1,15 @@
 # WeiXinTemplateMsg
 项目说明  
 
-        本项目旨在更容易使用微信订阅号、服务号的模板消息功能。
+        本项目旨在更容易的使用微信订阅号、服务号的模板消息功能。
 
 效果展示
 
 ![image](https://github.com/hchyue/WeiXinTemplateMsg/blob/master/img/result.jpg)
 
-使用方法  
+使用方法
 
+引用WeiXinTemplateMsg-1.0.0.jar
 
 1.设置Config
 
