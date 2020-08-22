@@ -5,7 +5,7 @@
 
 效果展示
 
-        ![image](img/result.jpg)
+        ![image](https://github.com/hchyue/WeiXinTemplateMsg/blob/master/img/result.jpg)
 
 使用方法  
 
